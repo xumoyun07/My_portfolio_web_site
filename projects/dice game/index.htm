@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css\style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\dice.png" type="image/x-icon">
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="con">
+        <div class="newGame">
+            
+            <div class="yozuv" onclick="newGame()"> New Game</div>
+            <img src="images\dice-1.png" alt="" id="img_Backgammon">
+        </div>
+        <div class="roll_dice" onclick="changeBackgammon()"> <i class="ion-ios-loop"></i>
+            <div> rolldice</div>
+        </div>
+        <div class="hold">
+            
+
+            <div> hold</div>
+        </div>
+
+        <div class="left_player" id="left_fon">
+            <div class="player">Player 1 </div>
+            <div class="left_red"></div>
+            <div class="left_hisob" id="lps">0</div>
+            <div class="left_all_hisob">account:
+                <h5 id="accountLeft"></h5>
+            </div>
+
+        </div>
+
+
+        <div class="right_player" id="right_fon">
+            <div class="player">player 2 </div>
+            <div class="right_red"></div>
+            <div class="right_hisob" id="rps">0</div>
+            <div class="right_all_hisob">
+
+                account:
+                <h5 id="accountRight"></h5>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</body>
+<script src="js\app.js"></script>
+</html>
+
+
+

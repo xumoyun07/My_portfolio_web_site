@@ -1,0 +1,156 @@
+   body {
+     height: 98.4vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: radial-gradient(circle 1300px, rgb(119, 0, 255) 40%, rgb(0, 0, 0) 60%);
+   }
+  .con {
+    height: 600px;
+    width: 1000px;
+    position: relative;
+    background-color: white;
+  }
+  
+  .left_player {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    background-color: rgb(218, 226, 220);
+  }
+  .right_player {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background-color: white;
+  
+  }
+  .newGame {
+    z-index: 10;
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yozuv {
+    font-family: "Lato";
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.25s;
+  }
+  
+  .newGame:hover .text {
+    font-weight: bold;
+    margin-left: 6px;
+  }
+  
+  .left_player .player,
+  .right_player .player {
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 100;
+    top: 100px;
+    position: absolute;
+  }
+  
+  .left_red,
+  .right_red {
+    z-index: 10;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+   
+    left: 80%;
+    top: 128px;
+    border-radius: 50%;
+  }
+
+  
+  .right_hisob,
+  .left_hisob {
+    position: absolute;
+    left: 45%;
+    font-family: "Lato";
+    font-size: 88px;
+    top: 185px;
+    font-weight: 100;
+    color: red;
+  }
+  .right_all_hisob,
+  .left_all_hisob {
+    top: 72%;
+    left: 35%;
+    position: absolute;
+    width: 140px;
+    height: 90px;
+    background-color: tan;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  h5 {
+    position: relative;
+    bottom: 45px;
+    font-size: 33px;
+    color: white;
+    font-family: "Lato";
+    font-weight: 100;
+  }
+  
+  img {
+    top: 140px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    box-shadow: 4px 4px 10px rgb(158, 156, 156);
+  }
+  
+  .roll_dice {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    top: 380px;
+    z-index: 10;
+    position: absolute;
+    left: 41%;
+  }
+  
+  .roll_dice div,
+  .hold div {
+    margin-left: 20px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: "Lato";
+  }
+  
+  .roll_dice i,
+  .hold i {
+    color: red;
+    font-size: 45px;
+  }
+  
+  .hold {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    top: 460px;
+    z-index: 10;
+    position: absolute;
+    left: 44%;
+  }
+  
